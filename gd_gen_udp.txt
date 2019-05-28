@@ -1,0 +1,13 @@
+-newsend
+-ipsrc 20.20.20.20
+-ipdst 192.168.30.5
+#-ipdst 10.10.10.10
+-mf
+-offset 1480
+-proto 17
+-portsrc 7000
+-portdst 1812
+-payload /home/cisco/ckk.2.dat
+-gototype 1
+-gotonext 1
+
